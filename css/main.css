@@ -126,7 +126,8 @@ i.fa.fa-bars.menu::before{
 }
 
 .icons,
-.test {
+.test,
+.text-foot {
  width: 80%;
 }
 
@@ -136,6 +137,19 @@ i.fa.fa-bars.menu::before{
 
 .solution-1 {
   color: #2A4BAC;
+}
+
+.foot {
+  background-color: #2A4BAC;
+   margin: 0 auto;
+}
+
+.t-foot {
+  color: #fff;
+}
+
+.icons-social {
+  width: 13%;
 }
 
 @media (max-width:768px)
