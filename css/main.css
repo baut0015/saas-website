@@ -152,6 +152,10 @@ i.fa.fa-bars.menu::before{
   width: 13%;
 }
 
+small {
+  color: #fff;
+}
+
 @media (max-width:768px)
 {
   .toggle
