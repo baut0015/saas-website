@@ -1,0 +1,116 @@
+
+body {
+  font-family: Merriweather, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.webter {
+  width: 50%;
+  padding-left: 10px;
+}
+
+.img-flex {
+  width: 100%;
+  display: block;
+}
+
+nav {
+  width: 100%;
+  background: #fff;
+}
+
+ul {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+ul li:hover {
+  background: #C0C0C0;
+}
+
+ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+li {
+  border-top: 1px solid;
+}
+
+.toggle {
+  width: 100%;
+  text-align: right;
+  box-sizing: border-box;
+  font-size: 35px;
+  display: none;
+}
+
+i.fa.fa-bars.menu::before{
+  right: 30px;
+  top: 20px;
+  position: absolute;
+}
+
+.banner-mobile {
+  max-height: 500px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
+.content {
+  position: absolute;
+  bottom: 60px;
+  max-height: 500px;
+  max-width: 50em;
+  width: 100%;
+  padding-left: 1.5rem;
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+.prop {
+  color: #fff;
+}
+
+.btn {
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 30px;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #252ea0;
+}
+
+
+@media (max-width:768px)
+{
+  .toggle
+  {
+    display: block;
+  }
+}
+
+ul {
+  width: 100%;
+  display: none;
+}
+
+ul li {
+  display: block;
+  text-align: center;
+}
+
+.active {
+  display: block;
+}
