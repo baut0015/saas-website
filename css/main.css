@@ -80,18 +80,63 @@ i.fa.fa-bars.menu::before{
   color: #fff;
 }
 
-.btn {
+.get-btn {
   text-decoration: none;
   color: #fff;
   border: 1px solid #fff;
   border-radius: 30px;
 }
 
-.btn:hover {
+.get-btn:hover {
   background-color: #fff;
   color: #252ea0;
 }
 
+.solution-btn {
+  text-decoration: none;
+  color: #fff;
+  background-color: #252ea0;
+  border-radius: 30px;
+}
+
+.solution-btn:hover {
+  color: gray;
+}
+
+.testimonials {
+  background-color: #cdd5ec;
+}
+
+.test {
+  position: relative;
+  border-radius: 30px;
+  color: rgba(39,62,84,0.82);
+}
+
+.user-title {
+  color: #3957b2;
+}
+
+.user-text {
+  position: absolute;
+  color: #fff;
+  text-shadow: 2px 2px 4px #000000;
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+.icons,
+.test {
+ width: 80%;
+}
+
+.ready {
+  color: #2B4CAD;
+}
+
+.solution-1 {
+  color: #2A4BAC;
+}
 
 @media (max-width:768px)
 {
