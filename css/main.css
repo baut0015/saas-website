@@ -5,6 +5,10 @@ body {
   padding: 0;
 }
 
+.nav-2 {
+  display: hidden;
+}
+
 .webter {
   width: 50%;
   padding-left: 10px;
@@ -224,4 +228,20 @@ ul li {
 
   .webter-log {
     width: 50%;
+  }
+
+  .test {
+    width: 50%;
+  }
+
+  .text-foot {
+    width: 30%;
+  }
+
+  .icons-social {
+    width: 6%;
+  }
+
+  nav {
+    display: inline-block;
   }
