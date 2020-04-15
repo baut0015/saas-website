@@ -63,6 +63,7 @@ i.fa.fa-bars.menu::before{
   overflow: hidden;
   position: relative;
   text-align: center;
+  margin: 0 auto;
 }
 
 .content {
@@ -74,6 +75,10 @@ i.fa.fa-bars.menu::before{
   padding-left: 1.5rem;
   transform: translateX(-50%);
   left: 50%;
+}
+
+.banner-desktop {
+  display:none;
 }
 
 .prop {
@@ -156,10 +161,7 @@ small {
   color: #fff;
 }
 
-@media only screen and (min-width: 25em) {
-
-
-@media (max-width:768px)
+@media (max-width:607px)
 {
   .toggle
   {
@@ -180,3 +182,46 @@ ul li {
 .active {
   display: block;
 }
+
+@media only screen and (min-width: 38em) {
+
+  .banner-mobile {
+    display: none;
+  }
+
+  .banner-desktop {
+    display: block;
+    max-height: 500px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .content-2 {
+    position: absolute;
+    bottom: 20px;
+    max-height: 500px;
+    max-width: 50em;
+    width: 100%;
+    padding-left: 1.5rem;
+    padding-right: 18rem;
+    transform: translateX(-50%);
+    left: 100%;
+  }
+
+  .icons {
+    width: 80%
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  .icon-text {
+    font-size: 1rem;
+  }
+
+  .webter-log {
+    width: 50%;
+  }
