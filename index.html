@@ -11,6 +11,12 @@
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,800;1,800&display=swap" rel="stylesheet">
 <body>
+
+  <ul class="skip-links">
+    <li><a href="#nav">Jump to navigation</a></li>
+    <li><a href="#main">Jump to main content</a></li>
+  </ul>
+
   <header>
 
     <div class="nav-1">
@@ -18,8 +24,8 @@
       <img class="webter-log" src="images/webter-logo.svg" alt="">
     </div>
 
-  <nav class="text-left">
-    <div class="toggle">
+  <nav class="text-left" role="navigation" id="nav" tabindex="0">
+    <div class="toggle" role="button" aria-haspopup="dialog" label="open navigation dialog">
       <i class="fa fa-bars menu" aria-hidden="true"></i>
     </div>
     <ul>
@@ -43,8 +49,8 @@
 
   </header>
 
-  <div class="banner-mobile">
-    <img class="img-flex" src="images/banner-webter-mobile.jpg" alt="">
+  <div class="banner-mobile" role="banner">
+    <img class="img-flex" src="images/banner-webter-mobile.jpg" <title>Webter Logo</title> <description>The Logo of Webter</description> alt="">
     <div class="content text-center max-length gutter">
       <h2 class="prop bold push-0"> Collect, Retrieve, Analyze</h2>
       <p class="prop micro">Webter, the online analytics tool used by professional marketers.</p>
@@ -52,7 +58,7 @@
     </div>
   </div>
 
-  <div class="banner-desktop">
+  <div class="banner-desktop" role="banner">
     <img class="img-flex" src="images/banner-webter.jpg" alt="">
     <div class="content-2 text-left gutter-2">
       <h2 class="prop bold push-0"> Collect, Retrieve, Analyze</h2>
@@ -61,7 +67,7 @@
     </div>
   </div>
 
-  <div class="text-center title-solution">
+  <div class="text-center title-solution" role="main" id="main" tabindex="0">
     <h2 class="solution-1 pad-t">Solutions for all needs</h2>
   </div>
 
