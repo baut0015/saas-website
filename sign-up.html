@@ -16,7 +16,7 @@
 
     <div class="header-form">
       <div class="">
-        <img class="web-form" src="images/webter-logo.svg" alt="Webter">
+        <img class="web-form" src="images/webter-logo.svg" alt="Webter" role="presentation">
       </div>
 
       <div class="close pad-t-1-2">
@@ -25,7 +25,7 @@
     </div>
 
 
-    <form class="signup push-0" method="POST" action="https://formspree.io/baut0015@algonquinlive.com" >
+    <form role="personal details" class="signup push-0" method="POST" action="https://formspree.io/baut0015@algonquinlive.com" >
       <div class="sign-up pad-t push-0">
         <div class="text-center gutter pad-t yotta bold title-sign">Sign Up</div>
         <div class="text-center pad-t-1-2 nano">Already have a Webter account? <a class="line-1" href="#">Log in</a></div>
@@ -36,7 +36,7 @@
         <div class="grid">
           <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t-1-2 text-center float-label">
             <label for="first name"></label>
-            <input id="first-name" name="first-name" placeholder="First name" required>
+            <input aria- id="first-name" name="first-name" placeholder="First name" required>
           </div>
 
           <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t-1-2 text-center float-label">
@@ -52,7 +52,7 @@
           </div>
 
           <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t-1-2 text-center float-label">
-            <label for="phone-number"></label>
+            <label for="phone number"></label>
             <input class="that-boc" id="phone-number" name="phone number" placeholder="Phone Number" optional>
           </div>
         </div>
@@ -71,12 +71,12 @@
 
         <div class="push pad-t text-center">
           <button class="btn-sign milli" type="submit">Sign Up</button>
-            <input type="hidden" name="sign-up" value="Sign Up">
+            <input aria-hidden="true" type="hidden" name="sign-up" value="Sign Up">
         </div>
       </div>
     </form>
 
-      <footer class="pico text-center gutter-2 max-length">*By signing up, you agree to our <a class="line-1" href="#">Terms of Use</a> and receive Webter emails and updates and acknowledge that you read our  <a class="line-1" href="#">Privacy Policy</a></footer>
+      <footer role="contentinfo" class="pico text-center gutter-2 max-length">*By signing up, you agree to our <a class="line-1" href="#">Terms of Use</a> and receive Webter emails and updates and acknowledge that you read our  <a class="line-1" href="#">Privacy Policy</a></footer>
   </div>
 
   </body>
