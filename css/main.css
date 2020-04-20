@@ -154,11 +154,64 @@ i.fa.fa-bars.menu::before{
 }
 
 .icons-social {
-  width: 13%;
+  width: 10%;
 }
 
 small {
   color: #fff;
+}
+
+.webter-logo-2 {
+  max-width: 40%;
+}
+
+.web-form {
+  height: 40px;
+}
+
+.close-icon {
+  height: 15px;
+}
+
+.header-form {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.mobile {
+  justify-content: center;
+}
+
+.btn-sign {
+  text-decoration: none;
+  color: #2e3192;
+  border: 1px solid #2e3192;
+  border-radius: 30px;
+}
+
+.line-1 {
+  color: #2AC6FF;
+  text-decoration: none;
+}
+
+.that-boc {
+  position: relative
+}
+
+.numberphone{
+  color: #757575;
+  position: absolute;
+  max-height: 500px;
+  max-width: 50em;
+  width: 100%;
+  padding-left: 1.5rem;
+  transform: translateX(-49%);
+  left: 50%;
+}
+
+input {
+  width: 270px;
 }
 
 @media (max-width:607px)
@@ -225,6 +278,15 @@ th {
 
 thead {
   border-left: 1px solid #ddd;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .numberphone {
+  transform: translateX(-39%);
+  left: 50%;
+  }
+
 }
 
 
@@ -294,3 +356,50 @@ thead {
   nav {
     display: flex;
   }
+
+  #pwd,
+  #email {
+    width: 550px;
+  }
+
+  .numberphone {
+  transform: translateX(-54%);
+  left: 50%;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .numberphone {
+  transform: translateX(-69%);
+  left: 50%;
+  }
+
+  .mobile {
+    padding: 25px  80px;
+  }
+
+  #phone-number,
+  #company,
+  #first-name,
+  #last-name {
+    width: 385px;
+  }
+
+  #pwd,
+  #email {
+    width: 787px;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+
+    #pwd,
+    #email {
+      width: 800px;
+    }
+
+}
