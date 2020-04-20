@@ -5,10 +5,6 @@ body {
   padding: 0;
 }
 
-.nav-2 {
-  display: hidden;
-}
-
 .webter {
   width: 50%;
   padding-left: 10px;
@@ -187,6 +183,51 @@ ul li {
   display: block;
 }
 
+.box-blue {
+  padding: 50px;
+  background-color: #2A4BAC;
+}
+
+.mark {
+  color: green;
+}
+
+.red-mark {
+  color: red;
+}
+.essentials{
+  background-color: #19C3AD;
+}
+
+.advanced {
+  background-color: #2A4BAC;
+}
+
+.table-head {
+  color: white;
+}
+
+.bg-grey {
+  background-color: #D3D3D3;
+}
+
+tr td {
+  border: 1px solid #ddd;
+}
+
+td {
+  padding-bottom: 0;
+}
+
+th {
+  border-bottom: 1px solid #ddd;
+}
+
+thead {
+  border-left: 1px solid #ddd;
+}
+
+
 @media only screen and (min-width: 38em) {
 
   .banner-mobile {
@@ -242,6 +283,14 @@ ul li {
     width: 6%;
   }
 
+  ul {
+    display: flex;
+  }
+
+  li {
+    border-top: none;
+  }
+
   nav {
-    display: inline-block;
+    display: flex;
   }
