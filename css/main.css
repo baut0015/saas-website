@@ -5,6 +5,10 @@ body {
   padding: 0;
 }
 
+.form-content {
+  justify-content: center;
+}
+
 .webter {
   width: 35%;
   padding-left: 10px;
@@ -214,9 +218,15 @@ small {
 
 .btn-sign {
   text-decoration: none;
-  color: #2e3192;
   border: 1px solid #2e3192;
   border-radius: 30px;
+}
+
+.button {
+  text-decoration: none;
+  border: 1px solid #2e3192;
+  border-radius: 30px;
+  background-color: none;
 }
 
 .line-1 {
@@ -325,10 +335,32 @@ a:focus {
   top: 0;
 }
 
+#phone-number,
+#company,
+#first-name,
+#last-name,
+#pwd,
+#email {
+  width: 280px;
+}
+
 @media only screen and (min-width: 25em) {
 
   .graph-1 {
     max-width: 70%;
+  }
+
+  .mobile {
+    max-width: 400px;
+  }
+
+  #phone-number,
+  #company,
+  #first-name,
+  #last-name,
+  #pwd,
+  #email {
+    width: 357px;
   }
 
 }
@@ -405,9 +437,16 @@ a:focus {
     display: flex;
   }
 
+  #phone-number,
+  #company,
+  #first-name,
+  #last-name {
+    width: 270px;
+  }
+
   #pwd,
   #email {
-    width: 550px;
+    width: 545px;
   }
 
   .numberphone {
