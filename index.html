@@ -1,249 +1,225 @@
 <!DOCTYPE html>
 <html lang="en-ca">
-<head>
-  <meta charset="utf-8">
-  <title>Webter</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/modules.css" rel="stylesheet">
-  <link href="css/grid.css" rel="stylesheet">
-  <link href="css/type.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
-  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,800;1,800&display=swap" rel="stylesheet">
-<body>
-
-  <ul class="skip-links">
-    <li><a href="#nav">Jump to navigation</a></li>
-    <li><a href="#main">Jump to main content</a></li>
-  </ul>
-
-  <header>
-
-    <div class="nav-1">
-    <div class="webter">
-      <img class="webter-log" src="images/webter-logo.svg" alt="">
-    </div>
-
-  <nav class="text-left" role="navigation" id="nav" tabindex="0">
-    <div class="toggle" role="button" aria-haspopup="dialog" label="open navigation dialog">
-      <i class="fa fa-bars menu" aria-hidden="true"></i>
-    </div>
-    <ul>
-      <li class="island"><a href="index.html">Home</a></li>
-      <li class="island"><a href="tour.html">Products</a></li>
-      <li class="island"><a href="tour.html">Solutions</a></li>
-      <li class="island"><a href="tour.html">Support</a></li>
-      <li class="island"><a href="sign-up.html">Sign Up/ Login</a></li>
-    </ul>
-  </nav>
-  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-  <script type="text/javascript">
-     $(document).ready(function(){
-      $('.menu').click(function(){
-       $('ul').toggleClass('active');
-      })
-     })
-  </script>
-  </div>
+   <head>
+      <meta charset="utf-8">
+      <title>Webter</title>
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <link href="css/modules.css" rel="stylesheet">
+      <link href="css/grid.css" rel="stylesheet">
+      <link href="css/type.css" rel="stylesheet">
+      <link href="css/main.css" rel="stylesheet">
+      <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,800;1,800&display=swap" rel="stylesheet">
+   <body>
 
 
-  </header>
-
-  <div class="banner-mobile" role="banner">
-    <img class="img-flex" src="images/banner-webter-mobile.jpg" <title>Webter Logo</title> <description>The Logo of Webter</description> alt="">
-    <div class="content text-center max-length gutter">
-      <h2 class="prop bold push-0"> Collect, Retrieve, Analyze</h2>
-      <p class="prop micro">Webter, the online analytics tool used by professional marketers.</p>
-      <a class="btn get-btn island-1-2" href="#">Get Started</a>
-    </div>
-  </div>
-
-  <div class="banner-desktop" role="banner">
-    <img class="img-flex" src="images/banner-webter.jpg" alt="">
-    <div class="content-2 text-left gutter-2">
-      <h2 class="prop bold push-0"> Collect, Retrieve, Analyze</h2>
-      <p class="prop nano">Webter, the online analytics tool used by professional marketers.</p>
-      <a class="btn get-btn island-1-4 nano" href="#">Get Started</a>
-    </div>
-  </div>
-
-  <div class="text-center title-solution" role="main" id="main" tabindex="0">
-    <h2 class="solution-1 pad-t">Solutions for all needs</h2>
-  </div>
-
-  <div class="grid icons max-length">
-    <div class="icons-line unit xs-1 s-1 m-1-3 icon-media-1">
-      <div class="unit push-0 text-center xs-1 s-1">
-        <img class="icons push-0" src="images/icons-media.svg" alt="">
-      </div>
-      <div class="unit text-center pad-b xs-1 s-1 m-1">
-        <span class="bold mega icon-text">Social Media Management</span>
-      </div>
-    </div>
-
-    <div class="icons-line unit xs-1 s-1 m-1-3 icon-media-1">
-      <div class="unit text-center push-0 xs-1 s-1">
-        <img class="icons push-0" src="images/roll-film.svg" alt="">
-      </div>
-      <div class="unit text-center pad-b xs-1 s-1 m-1">
-        <span class="bold mega icon-text">Media Management</span>
-      </div>
-    </div>
-
-    <div class="icons-line unit xs-1 s-1 m-1-3 icon-media-1">
-      <div class="unit text-center push-0 xs-1 s-1 m-1">
-        <img class="icons push-0" src="images/interaction-icon.svg" alt="">
-      </div>
-      <div class="unit text-center pad-b xs-1 s-1 m-1">
-        <span class="bold mega icon-text text-center">Interaction Management</span>
-      </div>
-    </div>
-  </div>
-
-  <div class="text-center pad-t-2 push-2">
-    <a class="btn text-center solution-btn milli island-1-2" href="#">See all Solutions</a>
-  </div>
+      <ul class="skip-links">
+         <li><a href="#nav">Jump to navigation</a></li>
+         <li><a href="#main">Jump to main content</a></li>
+      </ul>
 
 
+      <header class="pad-t-1-2">
+         <div class="nav-1">
+            <div class="webter">
+               <img class="webter-log" src="images/webter-logo.svg" alt="">
+            </div>
+            <nav class="text-center" role="navigation" id="nav" tabindex="0">
+               <div class="toggle" role="button" aria-haspopup="dialog" label="open navigation dialog">
+                  <i class="fa fa-bars menu" aria-hidden="true"></i>
+               </div>
+               <ul class="text-center">
+                  <li class="island micro wrapper"><a href="index.html">Home</a></li>
+                  <li class="island micro wrapper"><a href="tour.html">Products</a></li>
+                  <li class="island micro wrapper"><a href="tour.html">Solutions</a></li>
+                  <li class="island micro wrapper"><a href="tour.html">Support</a></li>
+                  <li class="pad-t micro wrapper"><a class="btn btn-green island-1-2"href="sign-up.html">Sign Up</a></li>
+               </ul>
+            </nav>
+            <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+            <script type="text/javascript">
+               $(document).ready(function(){
+                $('.menu').click(function(){
+                 $('ul').toggleClass('active');
+                })
+               })
+            </script>
+         </div>
+      </header>
 
-    <div class="grid pad-b testimonials">
-      <div class="unit xs-1 text-center">
-        <h2 class="user-title pad-t-2 push-0">Over 10,000 Users</h2>
+
+      <div class="banner-mobile" role="banner">
+         <img class="img-flex" src="images/banner-webter-mobile.jpg" alt="">
+         <div class="content text-center max-length gutter">
+            <h2 class="prop bold push-0"> Collect, Retrieve, Analyze</h2>
+            <p class="prop micro">Webter, the online analytics tool used by professional marketers.</p>
+            <a class="btn get-btn island-1-2" href="#">Get Started</a>
+         </div>
       </div>
 
-      <div class="unit text-center island xs-1">
-        <img class="test text-center" src="images/boy-1-copy.jpg" alt="">
-        <span class="user-text bold italic nina icon-text text-center pin-center-bottom">"Love it easy"</span>
+
+      <div class="banner-desktop" role="banner">
+         <img class="img-flex" src="images/banner-webter.jpg" alt="">
+         <div class="content-2 text-left gutter-2">
+            <h2 class="prop bold push-0"> Collect, Retrieve, Analyze</h2>
+            <p class="prop nano">Webter, the online analytics tool used by professional marketers.</p>
+            <a class="btn get-btn island-1-4 nano" href="#">Get Started</a>
+         </div>
       </div>
 
-      <div class="unit text-center island xs-1">
-        <img class="test text-center" src="images/girl-1-edit.jpg" alt="">
-        <span class="user-text bold italic nina icon-text text-center pin-center-bottom">"Easier than Marketo"</span>
+
+      <div class="text-center title-solution" role="main" id="main" tabindex="0">
+         <h2 class="solution-1 pad-t">Solutions for all needs</h2>
       </div>
-      <div class="unit text-center island xs-1">
-        <img class="test text-center" src="images/old-man-copy.jpg" alt="">
-        <span class="user-text bold italic nina icon-text text-center pin-center-bottom">"Engaging software"</span>
-      </div>
-    </div>
-
-    <div class="started pad-t-2 pad-b-2">
-      <div class="max-length text-center pad-t-2">
-        <h2 class="ready bold pad-t-2 push-0 gutter-1-2">Ready to start your business?</h2>
-        <p class="nano gutter-1-4 pad-b">Webter is the revolutionary tool to your marketing success.</p>
-      </div>
-      <div class="button-2 text-center pad-b-2">
-        <a class="btn text-center solution-btn nano island-1-2" href="#">Get Started</a>
-      </div>
-    </div>
-
-    <div class="grid foot">
-      <div class="webter-media text-center max-length">
-      <div class="unit gutter pad-t push-0 xs-1">
-        <img class="webter-logo-2 text-foot push-0" src="images/webter-logo-white.svg" alt="">
-        </div>
-        <div class="media-inline wrapper">
-          <div class="unit text-center icons-social">
-              <a class="" href="#">
-                <img class="icons-social-2 push-r-1-2" src="images/youtube.svg" alt="">
-              </a>
-          </div>
-          <div class="unit icons-social">
-              <a class="" href="#">
-                <img class="icons-social-2 push-r-1-2" src="images/facebook.svg" alt="">
-              </a>
-          </div>
-          <div class="unit icons-social">
-              <a class="" href="#">
-                <img class="icons-social-2 push-r-1-2" src="images/instagram.svg" alt="">
-              </a>
-          </div>
-          <div class="unit icons-social pad-b">
-              <a class="" href="#">
-                <img class="icons-social-2 push-r-1-2" src="images/twitter.svg" alt="">
-              </a>
-          </div>
-        </div>
-
-        <div class="grid products-foot">
-        <div class="unit xs-1 pad-b-1-2">
-          <span class="t-foot pico bold">Products</span>
-        </div>
-
-        <div class="unit xs-1 pad-b-1-2">
-          <span class="t-foot nano">Get Started</span>
-        </div>
-
-        <div class="unit xs-1 pad-b-1-2">
-          <span class="t-foot nano">How to use</span>
-        </div>
-
-        <div class="unit xs-1 pad-b-2">
-          <span class="t-foot nano">Prices</span>
-        </div>
-        </div>
-
-        <div class="grid solutions-foot">
-        <div class="unit xs-1 pad-b-1-2">
-          <span class="t-foot pico bold">Solutions</span>
-        </div>
-
-        <div class="unit xs-1 pad-b-1-2">
-          <span class="t-foot nano">Education</span>
-        </div>
-
-        <div class="unit xs-1 pad-b-2">
-          <span class="t-foot nano">Join the team</span>
-        </div>
-        </div>
-
-        <div class="grid support-foot">
-        <div class="unit xs-1 pad-b-1-2">
-          <span class="t-foot pico bold">Support</span>
-        </div>
-
-        <div class="unit xs-1 pad-b-1-2">
-          <span class="t-foot nano">Community</span>
-        </div>
-
-        <div class="unit xs-1 pad-b-1-2">
-          <span class="t-foot nano">Instagram</span>
-        </div>
-
-        <div class="unit xs-1 pad-b-1-2">
-          <span class="t-foot nano">Facebook</span>
-        </div>
-
-        <div class="unit xs-1 pad-b-1-2">
-          <span class="t-foot nano">Twitter</span>
-        </div>
-
-        <div class="unit xs-1 pad-b-2">
-          <span class="t-foot nano">Youtube</span>
-        </div>
+      <div class="grid icons max-length">
+         <div class="icons-line unit xs-1 s-1 m-1-3 l-1-3 icon-media-1">
+            <div class="unit push-0 text-center xs-1 s-1 m-1 l-1">
+               <img class="icons push-0" src="images/icons-media.svg" alt="">
+            </div>
+            <div class="unit text-center pad-b xs-1 s-1 m-1 l-1">
+               <span class="bold mega icon-text">Social Media Management</span>
+            </div>
+         </div>
+         <div class="icons-line unit xs-1 s-1 m-1-3 l-1-3 icon-media-1">
+            <div class="unit text-center push-0 xs-1 s-1 m-1 l-1">
+               <img class="icons push-0" src="images/roll-film.svg" alt="">
+            </div>
+            <div class="unit text-center pad-b xs-1 s-1 m-1 l-1">
+               <span class="bold mega icon-text">Media Management</span>
+            </div>
+         </div>
+         <div class="icons-line unit xs-1 s-1 m-1-3 l-1-3 icon-media-1">
+            <div class="unit text-center push-0 xs-1 s-1 m-1">
+               <img class="icons push-0" src="images/interaction-icon.svg" alt="">
+            </div>
+            <div class="unit text-center pad-b xs-1 s-1 m-1 l-1">
+               <span class="bold mega icon-text text-center">Interaction Management</span>
+            </div>
+         </div>
       </div>
 
-      <div class="unit wrapper text-center gutter-2">
-        <footer>
-          <p class="footer"><small class="text-center pico wrapper">© Copyright 2020, Jammie Bautista, All rights reserved.</small></p>
-        </footer>
 
+      <div class="text-center pad-t-2 push-2">
+         <a class="btn text-center solution-btn milli island-1-2" href="#">See all Solutions</a>
+      </div>
+      <div class="text-center testimonials push-0">
+         <h2 class="user-title text-center pad-t-2 push-0 pad-b">Over 10,000 Users</h2>
       </div>
 
+
+      <div class="grid pad-b-2 text-center testimonials">
+         <div class="unit xs-1 s-1 m-1 l-1-3 text-center pad-b-2">
+            <div class="testim wrapper">
+               <img class="testimg" src="images/boy-1-copy.jpg" alt="">
+               <div class="user-text bold italic nina icon-text text-center">"Love it easy"</div>
+            </div>
+         </div>
+         <div class="unit xs-1 s-1 m-1 l-1-3 text-center pad-b-2">
+            <div class="testim wrapper">
+               <img class="testimg" src="images/girl-1-edit.jpg" alt="">
+               <div class="user-text bold italic nina icon-text text-center">"Easier than Marketo"</div>
+            </div>
+         </div>
+         <div class="unit xs-1 s-1 m-1 l-1-3 text-center pad-b-2">
+            <div class="testim wrapper">
+               <img class="testimg" src="images/old-man-copy.jpg" alt="">
+               <div class="user-text bold italic nina icon-text text-center">"Engaging software"</div>
+            </div>
+         </div>
       </div>
 
-    </div>
+
+      <div class="started pad-t-2 pad-b-2">
+         <div class="max-length text-center pad-t-2">
+            <h2 class="ready bold pad-t-2 push-0 gutter-1-2">Ready to start your business?</h2>
+            <p class="nano gutter-1-4 pad-b">Webter is the revolutionary tool to your marketing success.</p>
+         </div>
+         <div class="button-2 text-center pad-b-2">
+            <a class="btn text-center solution-btn nano island-1-2" href="#">Get Started</a>
+         </div>
+      </div>
 
 
+      <div class="grid xs-1 s-1 m-1 l-1 foot">
+         <div class="webter-media text-center max-length">
+            <div class="unit gutter pad-t push-0 xs-1">
+               <img class="webter-logo-2 text-foot push-0" src="images/webter-logo-white.svg" alt="">
+            </div>
+            <div class="media-inline wrapper">
+               <div class="unit text-center icons-social">
+                  <a class="" href="https://www.youtube.com/">
+                  <img class="icons-social-2 push-r-1-2" src="images/youtube.svg" alt="">
+                  </a>
+               </div>
+               <div class="unit icons-social">
+                  <a class="" href="https://www.facebook.com/">
+                  <img class="icons-social-2 push-r-1-2" src="images/facebook.svg" alt="">
+                  </a>
+               </div>
+               <div class="unit icons-social">
+                  <a class="" href="https://www.instagram.com/">
+                  <img class="icons-social-2 push-r-1-2" src="images/instagram.svg" alt="">
+                  </a>
+               </div>
+               <div class="unit icons-social pad-b-2">
+                  <a class="" href="https://twitter.com/explore">
+                  <img class="icons-social-2 push-r-1-2" src="images/twitter.svg" alt="">
+                  </a>
+               </div>
+            </div>
+            <div class="unit xs-1 s-1 m-1-3 l-1-3 products-foot">
+               <div class="unit xs-1 s-1 m-1 l-1 pad-b-1-2">
+                  <span class="t-foot pico bold">Products</span>
+               </div>
+               <div class="unit xs-1 s-1 m-1 l-1 pad-b-1-2">
+                  <span class="t-foot nano">Get Started</span>
+               </div>
+               <div class="unit xs-1 s-1 m-1 l-1 pad-b-1-2">
+                  <span class="t-foot nano">How to use</span>
+               </div>
+               <div class="unit xs-1 s-1 m-1 l-1  pad-b-2">
+                  <span class="t-foot nano">Prices</span>
+               </div>
+            </div>
+            <div class="unit xs-1 s-1 m-1-3 l-1-3 solutions-foot">
+               <div class="unit xs-1 s-1 m-1-3 l-1 pad-b-1-2">
+                  <span class="t-foot pico bold">Solutions</span>
+               </div>
+               <div class="unit xs-1 s-1 m-1 l-1 pad-b-1-2">
+                  <span class="t-foot nano">Education</span>
+               </div>
+               <div class="unit xs-1 s-1 m-1 l-1 pad-b-2">
+                  <span class="t-foot nano">Join the team</span>
+               </div>
+            </div>
+            <div class="unit xs-1 s-1 m-1-3 l-1-3 support-foot">
+               <div class="unit xs-1 s-1 m-1 l-1 pad-b-1-2">
+                  <span class="t-foot pico bold">Support</span>
+               </div>
+               <div class="unit xs-1 s-1 m-1 l-1 pad-b-1-2">
+                  <span class="t-foot nano">Community</span>
+               </div>
+               <div class="unit xs-1 s-1 m-1 l-1 pad-b-1-2">
+                  <span class="t-foot nano">Instagram</span>
+               </div>
+               <div class="unit xs-1 s-1 m-1 l-1 pad-b-1-2">
+                  <span class="t-foot nano">Facebook</span>
+               </div>
+               <div class="unit xs-1 s-1 m-1 l-1 pad-b-1-2">
+                  <span class="t-foot nano">Twitter</span>
+               </div>
+               <div class="unit xs-1 s-1 m-1 l-1 pad-b-2">
+                  <span class="t-foot nano">Youtube</span>
+               </div>
+            </div>
+            <div class="unit wrapper text-center gutter-2">
+               <footer>
+                  <p class="footer"><small class="text-center pico wrapper">© Copyright 2020, Jammie Bautista, All rights reserved.</small></p>
+               </footer>
+            </div>
+         </div>
+      </div>
 
 
-
-
-
-
-
-
-
-
-
-</body>
+   </body>
 </html>

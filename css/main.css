@@ -6,9 +6,18 @@ body {
 }
 
 .webter {
-  width: 50%;
+  width: 35%;
   padding-left: 10px;
 }
+
+.btn-green {
+  text-decoration: none;
+  color: #fff;
+  background-color: #19C3AD;
+  border-radius: 30px;
+}
+
+
 
 .img-flex {
   width: 100%;
@@ -97,6 +106,13 @@ i.fa.fa-bars.menu::before{
   color: #252ea0;
 }
 
+.btn-1 {
+  text-decoration: none;
+  color: #fff;
+  background-color: #252ea0;
+  border-radius: 30px;
+}
+
 .solution-btn {
   text-decoration: none;
   color: #fff;
@@ -110,14 +126,22 @@ i.fa.fa-bars.menu::before{
 
 .testimonials {
   background-color: #cdd5ec;
+  margin: none;
 }
 
 .test {
   position: relative;
-  border-radius: 30px;
   color: rgba(39,62,84,0.82);
 }
 
+div.testim {
+  position: relative;
+}
+
+.testimg {
+  max-width: 75%;
+  border-radius: 30px;
+}
 .user-title {
   color: #3957b2;
 }
@@ -128,6 +152,11 @@ i.fa.fa-bars.menu::before{
   text-shadow: 2px 2px 4px #000000;
   transform: translateX(-50%);
   left: 50%;
+  top: 75%;
+}
+
+.how-1 {
+  color: #2B4CAD;
 }
 
 .icons,
@@ -267,6 +296,7 @@ ul li {
 
 tr td {
   border: 1px solid #ddd;
+  border-left: 1px solid #ddd;
 }
 
 td {
@@ -275,6 +305,7 @@ td {
 
 th {
   border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
 }
 
 thead {
@@ -296,7 +327,9 @@ a:focus {
 
 @media only screen and (min-width: 25em) {
 
-
+  .graph-1 {
+    max-width: 70%;
+  }
 
 }
 
@@ -337,15 +370,19 @@ a:focus {
   }
 
   .icon-text {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .webter-log {
     width: 50%;
   }
 
-  .test {
-    width: 50%;
+  .testimg {
+    max-width: 50%;
+  }
+
+  .testim {
+    margin: none;
   }
 
   .text-foot {
@@ -382,6 +419,23 @@ a:focus {
     max-width: 600px;
   }
 
+  .btn-green {
+    max-width: 100px;
+  }
+
+  .solution-btn {
+  display: none;
+  }
+
+  .graph-1 {
+    max-width: 55%;
+  }
+
+  .graph-text {
+    display
+  }
+
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -407,7 +461,42 @@ a:focus {
     width: 787px;
   }
 
+
+
+  .testim {
+    max-width: 50%;
+    border-radius: 30px;
+  }
+
+  .user-text {
+    font-size: 0.8rem;
+    line-height: 1.3em;
+    top: 65%;
+  }
+
+  .testimg {
+    max-width: 100%;
+  }
+
+  .banner-desktop {
+  max-height: 560px;
+  }
+
+  .webter-log {
+    max-width: 30%;
+  }
+
+  .content-2 {
+    bottom: 30px;
+    transform: translateX(-47%);
+
 }
+
+
+
+  .solution-btn {
+    display: none;
+  }
 
 @media only screen and (min-width: 90em) {
 
@@ -418,7 +507,21 @@ a:focus {
     }
 
     .mobile {
-      max-width: 1000px;
+      max-width: 893px;
+    }
+
+    .banner-desktop {
+    max-height: 670px;
+    }
+
+    .content-2 {
+      bottom: 60px;
+      transform: translateX(12%);
+      left: 50%;
+    }
+
+    .webter-log {
+      max-width: 30%;
     }
 
 }
